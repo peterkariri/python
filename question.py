@@ -1,4 +1,4 @@
-We have three models: Coffee, Customer, and Order.
+""" We have three models: Coffee, Customer, and Order.
 
 For our purposes, a Coffee has many Orders, a Customer has many Orders, and a Order belongs to a Customer and to a Coffee.
 
@@ -77,4 +77,4 @@ Returns the Customer instance that has spent the most money on the coffee instan
 Returns None if there are no customers for the coffee instance provided.
 hint: will need a way to remember all Customer objects
 Uncomment lines 137-147 in the customer_test file
-Bonus: For any invalid inputs raise an Exception.
+Bonus: For any invalid inputs raise an Exception. """
