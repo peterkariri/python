@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="intro">Introduction to the dom and its accessibility</p>
+    <p class="intro">this is a second paragraph</p>
+    <p>this is a third paragraph</p>
+
+    <article class="intro">
+      this is a good day and it was suny for swimming and luxury
+    </article>
+
+    <script>
+      /*   const introParagraph = document.getElementsByClassName("intro");
+      introParagraph.textContent = "this is wonderful knowing the truth book written by winnie";
+ */
+      /* console.log(introParagraph.textContent); */
+
+      const introParagraph = document.getElementById("intro");
+      introParagraph.innerHTML =
+        "this is wonderful <em>knowing the truth book written </em> by winnie";
+
+      console.log(introParagraph.innerHTML);
+
+      /*  const introParagraph = document.getElementsByClassName("intro");//retruns a collection of element
+      console.log(introParagraph[0].textContent); */
+
+      /* const querySelector = document.querySelector(".intro");
+      console.log(querySelector.textContent); */
+
+      const querySelectorAll = document.querySelectorAll(".intro");
+      console.log(querySelectorAll[0].textContent); //only output the first elment wth the class name intro
+
+      querySelectorAll.forEach((element) => {
+        //output all the elements text content with the class name intro
+        console.log(element.textContent);
+      });
+       
+     
+
+
+    
+
+
+
+
+    </script>
+  </body>
+</html>

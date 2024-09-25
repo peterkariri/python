@@ -8,7 +8,7 @@ the web browser is writtne mostly in javascript and thats why the domn first lan
 
     
     */
-  /*  <html>
+/*  <html>
     <body>
         <h1 class="winnie" id+"meaow"> hello world </h1>
         <p>This is me </p>
@@ -36,12 +36,12 @@ the web browser is writtne mostly in javascript and thats why the domn first lan
    attribute node  :represent the attributes that are used to access the nodes themeselves  
    */
 
-
-   
-   //ways of accessing the Dom 
- /*   document.getElementById--select an element by id
+//ways of accessing the Dom
+/*   document.getElementById--select an element by id
    document.querySelector--select an element by css selector
    document.querySelectorAll--select all elements by css selector
    document.getElementsByClassName--select all elements by class name
-   document.getElementsByName-select element by their tag name */
-   
+   document.getElementsByTagName-select element by their tag name */
+
+//by id
+;

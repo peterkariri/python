@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document faith</title>
+  </head>
+  <body>
+    <p class="intro">This is my first paragraph</p>
+    <p class="intro">this is my second paragraph and am happy</p>
+
+    <p>welcome faith Mutanu to this getElementsByClassName</p>
+    <article class="intro">
+      since 2020 i have been a fullstack developer
+    </article>
+
+    <script>
+      /* const introParagraph = document.getElementsByClassName("intro");
+      console.log(introParagraph[2].textContent);// */
+
+      //using and id
+   /*   const introParagraph = document.getElementById("intro");
+      introParagraph.innerHTML =
+        "This is Faith mutamu <em>and i am a software developer</em>";
+      console.log(introParagraph.innerHTML);  */
+
+      //query selector retruns the first element of the query only 
+      /* const introParagraph = document.querySelector(".intro");
+      console.log(introParagraph.textContent); */
+      //query selector all >>retuns all the elements of the specified atribute
+
+      const introParagraph = document.querySelectorAll(".intro");
+      introParagraph.forEach((element)=>{
+        console.log(element.textContent);
+      })
+    
+    </script>
+  </body>
+</html>
